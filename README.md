@@ -1,2 +1,2 @@
 # JavaScript
-Exercícios curso de JavaScript
+Resumo, com conceitos e exercícios, do curso de JavaScript da plataforma Rocketseat. 
