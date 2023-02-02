@@ -7,8 +7,8 @@ console.log(typeof weight)
 /*
     3.Declare uma variável e atribua valores para cada um dos dados:
     * name: String 
-    * age: Number (integer)
-    * starts; Number (float)
+    * age: Number (integer)inteiro
+    * starts; Number (float) real 
     * isSubscribed: Boolean
 */
     let name = "jade"
@@ -34,7 +34,7 @@ console.log(typeof weight)
             name: "julia",
             age: 16,
             weight: 50.0,
-            isSubscribed: false 
+            isSubscribed: false,
         }; // object//
 
         console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`) 
@@ -42,32 +42,32 @@ console.log(typeof weight)
     /*  5. Declara uma variável de tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente Array vazio
     */
 
-    //let present = []
+    //let students = []
 
         /* 6. Reatribua valores para a variavel a cima, colocando dentro dela o objeto student da questao 4.
         */
-    let present = [
+    let students = [
         student
     ]
 
-    console.log (present)
+    console.log (students)
 
         /* 7. Coloque no console o valor da posiçao zero do Array acima 
         */
-    console.log(present [0])
+    console.log(students[0])
 
-        /* 8. Crie um novo estudante e colocque na posição 1 do Array present
+        /* 8. Crie um novo estudante e colocque na posição 1 do Array students
         */
 
-        const Carolina = {
-            name: "Carolina",
+        const Jade = {
+            name: "Jade",
             age: 24,
             weight: 52.3,
-            isSubscribed: true
+            isSubscribed: true,
         }
 
-        present[1] = Carolina
-        console.log(present)
+        students[1] = jade
+        console.log(students)
 
         /* 9. Sem rodar o código repsonda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código e veja se voce acertou
 

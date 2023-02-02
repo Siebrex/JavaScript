@@ -9,7 +9,7 @@ function createThink(subject){
 console.log(createThink(subject))
 console.log(subject)
 
-//function hoisting
+//function hoisting. This function is backwards, but javascript organaze in the right form.
 
 sayMyName();
 
@@ -17,7 +17,7 @@ function sayMyName(){
     console.log('Jade')
 }
 
-//arrow function 
+//arrow function. It's a way to write a funcioan shorter. 
 
 const Myname = () => {
     console.log('Julia')
@@ -31,6 +31,8 @@ Myname()
 function Mydog (name) {
     console.log('before executing the callback')
     name()
+
+    console.log('after executing the callback')
 }
 
 Mydog(
@@ -52,7 +54,7 @@ function Person(name){
         return this.name + " is walking"
     }
 }
-// this will make a reference for carolina
+// this will make a reference for mariana
 
-const carolina = new Person("carolina")
-console.log(carolina.walk())
+const mariana = new Person("mariana")
+console.log(mariana.walk())

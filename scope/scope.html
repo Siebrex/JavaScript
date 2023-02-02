@@ -1,0 +1,35 @@
+<script>
+//para criar um bloco(escope) deve ser usado chave
+{
+     // aqui dentro é um bloco e poso colocar qualquer código
+}
+
+{
+    let x = 0 
+    console.log(x)
+}
+
+/*var é global( tudo que está executando na aplicaçao, tudo dentro de script), local(tudo que existe dentro de um escopor. e poderá funcionar fora de um escopo de bloco 
+*/
+
+var y = 0
+console.log('> existe x antes de bloco?', y)
+// como o var é global, mesmo se a variante y for definida depois o programa irá ler mas nao dará uma definiçao, ficará undefined. conceito identificado como hoisting, ex:
+
+console.log('> existe j antes do bloco?', j)
+{
+    var j = 0 
+}
+console.log('> existe j depois do bloco?', j)
+
+//const e let sao locais e só funcionam no escopo onde foi criada
+// so funciona se for definido antes 
+
+let p = 1
+{
+    let p = 0
+console.log('> existe p antes do bloco?', p)
+}
+console.log('> existe p antes do bloco?', p)
+
+</script>
