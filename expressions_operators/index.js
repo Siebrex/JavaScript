@@ -77,3 +77,57 @@ let jade = 3
 
 console.log( jade === "3"); // string 
 console.log(jade === 3); //number
+
+//maior que // menor que"<" // maior igual "=>" // menor igual "<="
+console.log( one > two);
+
+//Assignment (operadores de atribuiçao)
+
+let x //if you not assign a valeu it will be undefined 
+x = 2
+console.log(x);
+
+//addiction assignment. It works if any mathematical operator: "-="; "/="; "*="
+x += 2 // it will be x = x+2
+console.log(x);
+
+//remainder (rest of the division)
+x %= 5
+console.log(x);
+
+// exponentiation
+ x **= 2
+ console.log(x);
+
+//Logical operators - when 2 boolean valeus, when verified, results on true or false
+
+let pao = true 
+let queijo = true
+
+// AND && - two valeus needs to be true or it will always be false
+
+console.log( pao && queijo);
+
+//OR || - one can be false and it stil it results  be true 
+let chocolate = false
+let banana = true  
+console.log( chocolate || banana);
+
+// NOT ! - it will change the valeu, if was true will be false and vice versa.
+
+console.log( !chocolate);
+
+// The conditional ( TERNARY/ TERNARIO)- it dependes of the condition, we will receive diferents valeus.
+// condiçao entao valor 1 se nao valor 2
+// condition  ?   value1    :    valeu2
+
+let nayara = true
+let natercia = false
+
+const irmas = nayara && natercia ? 'gemeas' : 'nao gemeas' //you can put any logical operators
+console.log(irmas);
+
+//maior de 18
+let age1= 17
+const drive = age1 >= 18 ? 'can drive' : "can't drive"
+console.log(drive);
