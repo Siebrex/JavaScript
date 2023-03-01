@@ -122,7 +122,7 @@ console.log( !chocolate);
 // condition  ?   value1    :    valeu2
 
 let nayara = true
-let natercia = false
+let natercia = true
 
 const irmas = nayara && natercia ? 'gemeas' : 'nao gemeas' //you can put any logical operators
 console.log(irmas);
@@ -131,3 +131,48 @@ console.log(irmas);
 let age1= 17
 const drive = age1 >= 18 ? 'can drive' : "can't drive"
 console.log(drive);
+
+
+//String Operator:
+//Comparison (==)
+console.log('a' == 'b')
+
+//Concatenation(concatenaçao)- 2 strings
+console.log('m' + 'aira');
+
+let alpha = 'alpaha'
+console.log(alpha += 'bet');
+
+/*Falsy- when boolean is mandatory, the value will be considered false.
+
+false:
+0  -0  ""  null  undefined NaN */
+
+console.log(null ? 'verdadeiro' : 'false');
+
+/*Truthy- the valeu is considered true in a context that we use boolean.
+
+true {} [] 1 3.23 "0" "false" -1 Infinity -Infinity*/
+
+console.log(3.23 ? 'verdadeiro' : 'falso');
+
+
+/* Operator precedence (precedencia de operadores)
+
+*grouping ()
+*negaçao e incremento ! ++ --
+* multiplicaçao e divisao * /
+*adiçao e subtraçao + -
+*relacional < <= > >=
+*igualdade == != === !==
+*AND  &&
+*OR  ||
+*condicional ?:
+*assignment  = += -= *= /= 
+*/
+
+
+
+
+
+
